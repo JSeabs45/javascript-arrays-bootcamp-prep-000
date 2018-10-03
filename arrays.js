@@ -30,7 +30,7 @@ var chocolateBars = [
     return cars;
   }
   
-  function accessElementInArray(cars, 3) {
-    return cars[3]
+  function accessElementInArray(array, index) {
+    return array[index];
     
   }
