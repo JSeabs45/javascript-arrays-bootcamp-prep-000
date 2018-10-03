@@ -35,6 +35,12 @@ var chocolateBars = [
   }
   
   function destructivelyRemoveElementFromBeginningOfArray(cars) {
-    cars.shift()
-    return cars
+    cars.shift();
+    return cars;
   }
+  
+  
+  
+  
+  
+  
