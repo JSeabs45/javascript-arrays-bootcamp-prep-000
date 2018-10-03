@@ -39,7 +39,10 @@ var chocolateBars = [
     return cars;
   }
   
-  
+  function removeElementFromBeginningOfArray(cars) {
+    cars.slice();
+    return cars;
+  }
   
   
   
