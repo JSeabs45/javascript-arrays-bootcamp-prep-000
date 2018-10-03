@@ -21,4 +21,13 @@ var chocolateBars = [
     return cars;
   }
   
+  function addElementToEndOfArray(cars, honda) {
+    return [..."cars", "honda"]
+  }
+  
+  function destructivelyAddElementToEndOfArray(cars, honda) {
+    honda.push(cars);
+    return cars;
+  }
+  
   
