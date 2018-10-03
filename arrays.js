@@ -49,6 +49,8 @@ var chocolateBars = [
     return cars;
   }
   
-  
+  function removeElementFromEndOfArray(cars){
+  return cars.slice(0, cars.length - 1);
+}
   
   
