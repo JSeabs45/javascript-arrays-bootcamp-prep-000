@@ -30,4 +30,7 @@ var chocolateBars = [
     return cars;
   }
   
-  
+  function accessElementInArray(cars, 3) {
+    return cars[3]
+    
+  }
